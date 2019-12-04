@@ -9,6 +9,7 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 - [Cloning an object properties](#cloning-keys)
 - [Cloning an object values](#cloning-values)
 - [The **`in`** operator](#in-operator)
+- [Defining methods(functions) in objects](#defining-methods)
 
 ## Creating
 ```javascript
@@ -76,7 +77,13 @@ if ("favoriteColor" in objectName) { // if the property favoriteColor exists in 
 }
 //  output -> "Doesn't exists"
 ```
-
+## Defining methods
+```javascript
+// The same way we add properties
+objectName.sayBonjour = function(name) {
+  console.log(`Bonjour ${name}.`);
+}
+```
 
 
 
