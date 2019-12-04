@@ -95,7 +95,7 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
   // Let's add a new method
   objectName.sayMyAge = function() {
     this.sayBonjour('Mathieu');
-    console.log(`I'm ${this.age} years old.`);
+    console.log(`You're ${this.age} years old.`);
   }
 ```  
 ### Explanation:
@@ -115,7 +115,7 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
       // Using the 'this.sayBonjour()' keyword is the same thing as saying:
       // objectName.sayBonjour()
        
-      console.log(`I'm ${this.age} years old.`);
+      console.log(`You're ${this.age} years old.`);
       // The same thing happening here. We're saying '`I'm ${objectName.age} years old.'
       
     }
@@ -124,5 +124,5 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ```javascript
   sayMyAge();   // "Bonjour Mathieu."
-                // "I'm 25 years old."
+                // "You're 25 years old."
   ```
