@@ -29,7 +29,7 @@ objectName.name; // "Rabah"
 objectName["name"]; // "Rabah"
 ```
 ## Manipulating data
-```
+```javascript
 objectName.name = "Fred";
 
 objectName["name"]  // "Fred"
