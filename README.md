@@ -98,6 +98,7 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
     console.log(`I'm ${this.age} years old.`);
   }
 ```  
+### Explanation:
   ```javascript
   // Now our object looks like this
   objectName = {
