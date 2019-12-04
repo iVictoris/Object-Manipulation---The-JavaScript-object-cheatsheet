@@ -11,6 +11,7 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 - [The **`in`** operator](#in-operator)
 - [Defining methods (functions) in objects](#defining-methods)
 - [Using those methods (functions)](#using-methods)
+- [Using **`this`** for objects](#this-keyword)
 
 ## Creating
 ```javascript
@@ -89,6 +90,16 @@ objectName.sayBonjour = function(name) {
 ```javascript
 objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
 ```
-
+## `this` keyword
+```javascript
+  // Let's add a new method
+  objectName.sayMyAge = function() {
+    this.sayBonjour('Mathieu');
+    console.log(`I'm ${this.age} years old.`);
+  }
+  
+  sayMyAge();   // "Bonjour Mathieu."
+                // "I'm 25 years old."
+```
 
 
