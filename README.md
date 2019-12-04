@@ -27,6 +27,20 @@ objectName.age = 18;
 ```javascript
 objectName["name"] = "Rabah";
 objectName["age"] = 18;
+
+// another way with variables
+const newProp = 'location';
+objectName[newProp] = 'FL'
+
+/*
+objectName = {
+  name: "Rabah",
+  age: 18,
+  location: "FL"
+}
+*/
+
+
 ```
 ## Accessing
 ```javascript
