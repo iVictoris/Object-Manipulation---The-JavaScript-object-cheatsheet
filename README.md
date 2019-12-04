@@ -58,7 +58,8 @@ objectName[propName] // "FL"
 ```javascript
 objectName.age = 25;
 
-objectName["age"]  // 25
+objectName["age"] = 30 // 30 
+// objectName = {...otherProps, age: 30}
 ```
 ## Looping
 ```javascript
