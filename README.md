@@ -3,7 +3,7 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 
 - [Create an empty object](#create-an-empty-object)
 - [Add propreties and values](#add-properties-and-values)
-
+- [Accessing Data](#accessing-data)
 
 
 ## Create an empty object
@@ -19,3 +19,9 @@ objectName.name = "Rabah";
 ```javascript
 objectName["name"] = "Rabah";
 ```
+## Accessing data
+```javascript
+// dot notation
+objectName.name; // "Rabah"
+// bracket notation
+objectName["name"]; // "Rabah"
