@@ -15,7 +15,7 @@ var objectName = {};
 ```javascript
 objectName.name = "Rabah";
 ```
-### 2. Using `[]` bracket notation:
+#### 2. Using `[]` bracket notation:
 ```javascript
-objectNam["name"] = "Rabah";
+objectName["name"] = "Rabah";
 ```
