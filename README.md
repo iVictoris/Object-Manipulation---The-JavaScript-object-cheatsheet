@@ -138,6 +138,7 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
   objectName = {
     name: "Rabah",
     age: 25,
+    location: "FL",
     sayBonjour: function(name) {
       console.log(`Bonjour ${name}.`);
     },
