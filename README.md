@@ -158,6 +158,6 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
   ```
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ```javascript
-  sayMyAge();   // "Bonjour Mathieu."
+  objectName.sayMyAge();   // "Bonjour Mathieu."
                 // "I'm 25 years old."
   ```
