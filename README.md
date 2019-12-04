@@ -108,11 +108,10 @@ console.log(values) // ["Rabah", 25, "FL"]
 ## `in` operator
 ```javascript
 if ("favoriteColor" in objectName) { // if the property favoriteColor exists in objectName
-  console.log("Exists");
+  // do something if true
 } else {
-  console.log("Doesn't exists");
+  // do something otherwise
 }
-//  output -> "Doesn't exists"
 ```
 ## Defining methods
 ```javascript
