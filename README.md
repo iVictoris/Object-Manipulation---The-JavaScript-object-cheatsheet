@@ -49,6 +49,10 @@ objectName.name; // "Rabah"
 
 // bracket notation
 objectName["name"]; // "Rabah"
+
+// extra variation
+const propName = "location";
+objectName[propName] // "FL"
 ```
 ## Manipulating
 ```javascript
