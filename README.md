@@ -37,3 +37,10 @@ objectName.age = 25;
 
 objectName["age"]  // 25
 ```
+## Looping
+```javascript
+for (var property in objectName) {
+  if (property === ...) {
+    // Do things her
+  }
+}```
