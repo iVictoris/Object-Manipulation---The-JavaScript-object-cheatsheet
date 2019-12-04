@@ -85,7 +85,11 @@ for (let property in objectName) {
   objectKeys.push(property);
 }
 
-console.log(objectKeys) // ["name", "age"]
+console.log(objectKeys) // ["name", "age", "location"
+
+// alternatively
+const keys = Object.keys(objectName); 
+console.log(keys) // ["name", "age", "location"]
 ```
 ## Cloning values
 ```javascript
@@ -95,7 +99,11 @@ for (let property in objectName) {
   objectValues.push(objectName[property]);
 }
 
-console.log(objectValues) // ["Rabah", 25]
+console.log(objectValues) // ["Rabah", 25, "FL"]
+
+// alternatively
+const values = Object.values(objectName);
+console.log(values) // ["Rabah", 25, "FL"]
 ```
 ## `in` operator
 ```javascript
