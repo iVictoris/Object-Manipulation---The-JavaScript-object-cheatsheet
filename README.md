@@ -108,9 +108,15 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
     },
     sayMyAge: function() {
     
-      this.sayBonjour('Mathieu'); // The **this** keyword here
-      
+      this.sayBonjour('Mathieu');
+       // Since the method 'sayBonjour' it's outside of this method scope, 
+       // which is inside the objectName. so to refer to it and use it by calling it, we have to use the 'this' keyword.
+       // Using the 'this.sayBonjour()' keyword is the same thing as saying:
+       // objectName.sayBonjour()
+       
       console.log(`I'm ${this.age} years old.`);
+      // The same thing happening here. We're saying '`I'm ${objectName.age} years old.'
+      
     }
   }   
   ```
