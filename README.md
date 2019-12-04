@@ -10,7 +10,7 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 ```javascript
 var objectName = {};
 ```
-## Add propreties and values
+## Add properties and values
 #### 1. Using `.` dot notation:
 ```javascript
 objectName.name = "Rabah";
