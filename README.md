@@ -42,7 +42,7 @@ objectName["age"]  // 25
 ```javascript
 for (var property in objectName) {
   if (property === ...) {
-    // Do things her
+    // Do things here
   }
 }
 ```
@@ -53,6 +53,8 @@ var objectKeys = [];
 for (var property in objectName) {
   objectKeys.push(property);
 }
+
+console.log(objectKeys) // ["name", "age"]
 ```
 ## Cloning values
 ```javascript
@@ -61,4 +63,6 @@ var objectValues = [];
 for (var property in objectName) {
   objectValues.push(objectName[property]);
 }
+
+console.log(objectValues) // ["Rabah", 25]
 ```
