@@ -104,16 +104,16 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
     name: "Rabah",
     age: 25,
     sayBonjour: function(name) {
-      //console.log(`Bonjour ${name}.`);
+      console.log(`Bonjour ${name}.`);
     },
     sayMyAge: function() {
       this.sayBonjour('Mathieu');
-      //console.log(`I'm ${this.age} years old.`);
+      console.log(`I'm ${this.age} years old.`);
     }
   }   
   ```
   /////////////////////////////////
-  
+  ```javascript
   sayMyAge();   // "Bonjour Mathieu."
                 // "I'm 25 years old."
-```
+  ```
