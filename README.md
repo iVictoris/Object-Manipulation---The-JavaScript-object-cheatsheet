@@ -8,7 +8,7 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 - [Looping through an object](#looping)
 - [Cloning an object properties](#cloning-keys)
 - [Cloning an object values](#cloning-values)
-- [The `in` operator](#in-operator)
+- [The **`in`** operator](#in-operator)
 
 ## Creating
 ```javascript
