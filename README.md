@@ -15,10 +15,12 @@ var objectName = {};
 #### 1. Using `.` dot notation:
 ```javascript
 objectName.name = "Rabah";
+objectName.age = 18;
 ```
 #### 2. Using `[]` bracket notation:
 ```javascript
 objectName["name"] = "Rabah";
+objectName["age"] = 18;
 ```
 ## Accessing the data
 ```javascript
@@ -30,7 +32,7 @@ objectName["name"]; // "Rabah"
 ```
 ## Manipulating the data
 ```javascript
-objectName.name = "Fred";
+objectName.age = 25;
 
-objectName["name"]  // "Fred"
+objectName["age"]  // 25
 ```
