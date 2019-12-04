@@ -107,7 +107,9 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
       console.log(`Bonjour ${name}.`);
     },
     sayMyAge: function() {
-      this.sayBonjour('Mathieu');
+    
+      this.sayBonjour('Mathieu'); // The **this** keyword here
+      
       console.log(`I'm ${this.age} years old.`);
     }
   }   
