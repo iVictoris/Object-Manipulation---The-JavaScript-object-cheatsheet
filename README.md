@@ -8,10 +8,6 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 
 
 # Create an object
-``` var obj = { };```
 ```javascript
-var meals = ['breakfast', 'lunch', 'dinner'];
-
-var copy = meals.slice();
-// ['breakfast', 'lunch', 'dinner']
+var object-name = {name: 'Rabah', age: 25};
 ```
