@@ -13,5 +13,9 @@ var objectName = {};
 ## Add propreties and values
 #### 1. Using `.` dot notation:
 ```javascript
-objectName.name = 'Rabah'
+objectName.name = "Rabah";
+```
+### 2. Using `[]` bracket notation:
+```javascript
+objectNam["name"] = "Rabah";
 ```
