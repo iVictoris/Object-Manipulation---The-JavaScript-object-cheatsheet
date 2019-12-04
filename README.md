@@ -6,7 +6,8 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 - [Accessing the data](#accessing)
 - [Manipulating the data](#manipulating)
 - [Looping through an object](#looping)
-- [Cloning an object properties](#cloning)
+- [Cloning an object properties](#cloning-keys)
+- [Cloning an object values](#cloning-values)
 
 
 ## Creating
@@ -46,11 +47,19 @@ for (var property in objectName) {
   }
 }
 ```
-## Cloning
+## Cloning keys
 ```javascript
 var objectKeys = [];
 
 for (var property in objectName) {
   objectKeys.push(property);
+}
+```
+## Cloning values
+```javascript
+var objectValues = [];
+
+for (var property in objectName) {
+  objectValues.push(objectName[property]);
 }
 ```
