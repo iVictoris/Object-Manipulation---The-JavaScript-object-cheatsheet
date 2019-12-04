@@ -23,5 +23,6 @@ objectName["name"] = "Rabah";
 ```javascript
 // dot notation
 objectName.name; // "Rabah"
+
 // bracket notation
 objectName["name"]; // "Rabah"
