@@ -9,7 +9,8 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 - [Cloning an object properties](#cloning-keys)
 - [Cloning an object values](#cloning-values)
 - [The **`in`** operator](#in-operator)
-- [Defining methods(functions) in objects](#defining-methods)
+- [Defining methods (functions) in objects](#defining-methods)
+- [Using those methods (functions)(#using-methods)
 
 ## Creating
 ```javascript
@@ -84,7 +85,10 @@ objectName.sayBonjour = function(name) {
   console.log(`Bonjour ${name}.`);
 }
 ```
-
+## Using methods
+```javascript
+objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
+```
 
 
 
