@@ -68,6 +68,14 @@ for (let property in objectName) {
     // Do things here
   }
 }
+
+for (let i = 0; i < 10; i++) {
+  // Do something here
+}
+
+while(condition) { // condition needs to be false at some point
+  // Do something here
+}
 ```
 ## Cloning keys
 ```javascript
