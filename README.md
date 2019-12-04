@@ -15,7 +15,7 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 
 ## Creating
 ```javascript
-var objectName = {};
+const objectName = {};
 ```
 ## Adding
 #### 1. Using `.` dot notation:
@@ -27,6 +27,20 @@ objectName.age = 18;
 ```javascript
 objectName["name"] = "Rabah";
 objectName["age"] = 18;
+
+// another way with variables
+const newProp = 'location';
+objectName[newProp] = 'FL'
+
+/*
+objectName = {
+  name: "Rabah",
+  age: 18,
+  location: "FL"
+}
+*/
+
+
 ```
 ## Accessing
 ```javascript
@@ -35,49 +49,69 @@ objectName.name; // "Rabah"
 
 // bracket notation
 objectName["name"]; // "Rabah"
+
+// extra variation
+const propName = "location";
+objectName[propName] // "FL"
 ```
 ## Manipulating
 ```javascript
 objectName.age = 25;
 
-objectName["age"]  // 25
+objectName["age"] = 30 // 30 
+// objectName = {...otherProps, age: 30}
 ```
 ## Looping
 ```javascript
-for (var property in objectName) {
+for (let property in objectName) {
   if (property === ...) {
     // Do things here
   }
 }
+
+for (let i = 0; i < 10; i++) {
+  // Do something here
+}
+
+while(condition) { // condition needs to be false at some point
+  // Do something here
+}
 ```
 ## Cloning keys
 ```javascript
-var objectKeys = [];
+const objectKeys = [];
 
-for (var property in objectName) {
+for (let property in objectName) {
   objectKeys.push(property);
 }
 
-console.log(objectKeys) // ["name", "age"]
+console.log(objectKeys) // ["name", "age", "location"
+
+// alternatively
+const keys = Object.keys(objectName); 
+console.log(keys) // ["name", "age", "location"]
 ```
 ## Cloning values
 ```javascript
-var objectValues = [];
+const objectValues = [];
 
-for (var property in objectName) {
+for (let property in objectName) {
   objectValues.push(objectName[property]);
 }
 
-console.log(objectValues) // ["Rabah", 25]
+console.log(objectValues) // ["Rabah", 25, "FL"]
+
+// alternatively
+const values = Object.values(objectName);
+console.log(values) // ["Rabah", 25, "FL"]
 ```
 ## `in` operator
 ```javascript
 if ("favoriteColor" in objectName) { // if the property favoriteColor exists in objectName
-  console.log("Exists");
+  // do something if true
 } else {
-  console.log("Doesn't exists");
+  // do something otherwise
 }
-//  output -> "Doesn't exists"
 ```
 ## Defining methods
 ```javascript
@@ -104,6 +138,7 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
   objectName = {
     name: "Rabah",
     age: 25,
+    location: "FL",
     sayBonjour: function(name) {
       console.log(`Bonjour ${name}.`);
     },
@@ -123,6 +158,6 @@ objectName.sayBonjour("Peggy"); // "Bonjour Peggy."
   ```
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ```javascript
-  sayMyAge();   // "Bonjour Mathieu."
+  objectName.sayMyAge();   // "Bonjour Mathieu."
                 // "I'm 25 years old."
   ```
