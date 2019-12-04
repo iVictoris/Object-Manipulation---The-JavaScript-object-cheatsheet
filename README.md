@@ -1,17 +1,18 @@
 # Object-Manipulation - The JavaScript object cheatsheet
 This is a work in progress cheatsheet for JS objects. Please, feel free to comment if this helped you or give any feedback or suggestion for improvements.
 
-- [Create an empty object](#create-an-empty-object)
-- [Add propreties and values](#add-properties-and-values)
-- [Accessing the data](#accessing-the-data)
-- [Manipulating the data](#manipulating-the-data)
+- [Create an empty object](#creating)
+- [Add propreties and values](#adding)
+- [Accessing the data](#accessing)
+- [Manipulating the data](#manipulating)
+- [Looping through an object](#looping)
 
 
-## Create an empty object
+## Creating
 ```javascript
 var objectName = {};
 ```
-## Add properties and values
+## Adding
 #### 1. Using `.` dot notation:
 ```javascript
 objectName.name = "Rabah";
@@ -22,7 +23,7 @@ objectName.age = 18;
 objectName["name"] = "Rabah";
 objectName["age"] = 18;
 ```
-## Accessing the data
+## Accessing
 ```javascript
 // dot notation
 objectName.name; // "Rabah"
@@ -30,7 +31,7 @@ objectName.name; // "Rabah"
 // bracket notation
 objectName["name"]; // "Rabah"
 ```
-## Manipulating the data
+## Manipulating
 ```javascript
 objectName.age = 25;
 
