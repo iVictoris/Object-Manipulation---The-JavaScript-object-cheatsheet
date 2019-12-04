@@ -5,7 +5,49 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 
 
 
+#hello
+
+#hello
+
+
+
+
+#hello
+
+
+
+
+
+
+#hello
+
+
+
+
+
+#hello
+
+
+
+
+#hello
+
+
+
+
+
+#hello
+
+
+
+
+
+#hello
+
+
+
+
 
 
 #Create an object
-``` var obj = { };(#creation)```
+` var obj = { };`
