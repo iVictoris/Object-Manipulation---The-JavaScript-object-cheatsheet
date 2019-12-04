@@ -15,7 +15,7 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 
 ## Creating
 ```javascript
-var objectName = {};
+const objectName = {};
 ```
 ## Adding
 #### 1. Using `.` dot notation:
@@ -44,7 +44,7 @@ objectName["age"]  // 25
 ```
 ## Looping
 ```javascript
-for (var property in objectName) {
+for (let property in objectName) {
   if (property === ...) {
     // Do things here
   }
@@ -52,9 +52,9 @@ for (var property in objectName) {
 ```
 ## Cloning keys
 ```javascript
-var objectKeys = [];
+const objectKeys = [];
 
-for (var property in objectName) {
+for (let property in objectName) {
   objectKeys.push(property);
 }
 
@@ -62,9 +62,9 @@ console.log(objectKeys) // ["name", "age"]
 ```
 ## Cloning values
 ```javascript
-var objectValues = [];
+const objectValues = [];
 
-for (var property in objectName) {
+for (let property in objectName) {
   objectValues.push(objectName[property]);
 }
 
