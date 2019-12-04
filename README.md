@@ -10,7 +10,7 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 - [Cloning an object values](#cloning-values)
 - [The **`in`** operator](#in-operator)
 - [Defining methods (functions) in objects](#defining-methods)
-- [Using those methods (functions)(#using-methods)
+- [Using those methods (functions)](#using-methods)
 
 ## Creating
 ```javascript
