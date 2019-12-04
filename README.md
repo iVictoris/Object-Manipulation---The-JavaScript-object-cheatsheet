@@ -9,7 +9,6 @@ This is a work in progress cheatsheet for JS objects. Please, feel free to comme
 - [Cloning an object properties](#cloning-keys)
 - [Cloning an object values](#cloning-values)
 
-
 ## Creating
 ```javascript
 var objectName = {};
